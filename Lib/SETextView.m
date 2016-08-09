@@ -872,7 +872,7 @@ static NSString * const PARAGRAPH_SEPARATOR = @"\u2029";
 {
     [self discardCursorRects];
     
-    [self addCursorRect:self.textLayout.frameRect cursor:[NSCursor IBeamCursor]];
+    //[self addCursorRect:self.textLayout.frameRect cursor:[NSCursor IBeamCursor]];
     
     [self enumerateLinksUsingBlock:^(SELinkText *link, BOOL *stop) {
         for (SETextGeometry *geometry in link.geometries) {
