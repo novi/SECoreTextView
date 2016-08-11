@@ -939,7 +939,7 @@ static NSString * const PARAGRAPH_SEPARATOR = @"\u2029";
 #if TARGET_OS_IPHONE
     [self resetSelectionGrabber];
 #else
-    [self highlightRolloveredLink];
+    //[self highlightRolloveredLink];
     
     [self updateCursorRectsInLinks];
     [self updateTrackingAreasInLinks];
